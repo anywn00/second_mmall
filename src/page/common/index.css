@@ -1,0 +1,87 @@
+/*
+* @Author: 第九
+* @Date:   2017-12-11 14:35:10
+* @Last Modified by:   第九
+* @Last Modified time: 2017-12-11 16:39:27
+*/
+
+/* css reset */ 
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f6f6f6;
+	font:  12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;
+}
+li {
+	list-style: none;
+}
+img{
+	display: block;
+	border: none;
+}
+label{
+	cursor: pointer;
+}
+input[type='checkbox']{
+	cursor: pointer;
+}
+
+/* 定宽布局 */
+.w{
+	width: 1080px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.hide{
+	display: none;
+}
+
+.link{
+	color: #999;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link:hover{
+	color: #e80012;
+}
+.link-text{
+	color: #999;
+	text-decoration: none;
+}
+
+/* btn */
+.btn{
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	outline: none;
+	background: #c60023;	
+	border: none;
+	cursor: pointer;
+	user-select: none;
+}
+.btn-min{
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+/* loading */
+.loading{
+	display: block;
+	margin: 10px auto;
+	width: 65px;
+	height: 65px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	background: url(../../image/icon/loading.gif) no-repeat;
+	opacity: .7;	
+}

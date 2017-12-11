@@ -1,0 +1,24 @@
+/*
+* @Author: 第九
+* @Date:   2017-12-11 16:49:41
+* @Last Modified by:   第九
+* @Last Modified time: 2017-12-11 16:56:55
+*/
+.links{
+	margin: 10px 0;
+	text-align: center;
+	color: #999;
+}
+
+.links .link{
+	margin:0 10px; 
+}
+.links .link:hover{
+	color: #666;
+	text-decoration: underline;
+}
+
+.copyright{
+	text-align: center;
+	color: #999;
+}

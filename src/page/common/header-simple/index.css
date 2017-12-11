@@ -1,0 +1,18 @@
+/*
+* @Author: 第九
+* @Date:   2017-12-11 17:32:52
+* @Last Modified by:   第九
+* @Last Modified time: 2017-12-11 17:36:38
+*/
+.header-simple{
+	background: #fff;
+}
+.logo{
+	display: block;
+	margin: 10px 0;
+	font-size: 38px;
+	font-weight: bold;
+	color: #c60023;
+	cursor: pointer;
+	text-decoration: none;
+}
